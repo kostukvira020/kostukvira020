@@ -1,0 +1,47 @@
+{
+  "notes": "tapFrac values are DERIVED, not guessed. UGUI targets: CanvasScaler ref 1242x2688, ScreenMatchMode Expand -> logical canvas 1242x2760 on a 1080x2400 device; the panel body sits inside an AspectRatioFitter (EnvelopeParent, 1242/2688) that resolves to 1275.27x2760, so screenX = 0.5 + (anchorX - 0.5) * 1275.27/1242 and screenY = 1 - anchorY. Board targets: ortho size 5, halfW = 5 * 1080/2400 = 2.25, board width 0.88 of the screen, pitch = 3.96/7 = 0.5657; grid 1 has 2 deflector rows, so row 0 sits at world y 1.3667.",
+  "steps": [
+    {
+      "waitLoader": true,
+      "wait": 1.5,
+      "shot": "01_Menu"
+    },
+    {
+      "tapFrac": [0.500, 0.870],
+      "label": "HOW TO PLAY",
+      "wait": 1.4,
+      "shot": "02_HowToPlay"
+    },
+    {
+      "tapFrac": [0.500, 0.670],
+      "label": "SELECT LEVEL (closes how-to, opens the grid picker)",
+      "wait": 1.3,
+      "shot": "03_SelectGrid"
+    },
+    {
+      "tapFrac": [0.258, 0.322],
+      "label": "GRID 1 TILE",
+      "waitLoader": true,
+      "wait": 3.0,
+      "shot": "04_Game_routing"
+    },
+    {
+      "tapFrac": [0.374, 0.363],
+      "label": "SWITCH ROW 1 CHANNEL 3 (selects it)",
+      "wait": 5.0,
+      "shot": "05_Game_selected"
+    },
+    {
+      "tapFrac": [0.500, 0.363],
+      "label": "SWITCH ROW 1 CHANNEL 4 (swaps the pair)",
+      "wait": 6.0,
+      "shot": "06_Game_swapped"
+    },
+    {
+      "tapFrac": [0.906, 0.048],
+      "label": "PAUSE",
+      "wait": 1.6,
+      "shot": "07_PauseHeld"
+    }
+  ]
+}

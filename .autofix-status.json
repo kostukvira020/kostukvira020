@@ -1,0 +1,1 @@
+{"outcome":"failed","message":"Claude завершился с ошибкой в раунде 1 — см. .autofix.log","note":"When i start game scene, all freezes, maybe the reason because it throws exception, need you to try to detect it just like it or even run emulator to fix it","rounds":1,"at_epoch":1791197644}

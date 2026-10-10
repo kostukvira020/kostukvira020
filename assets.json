@@ -1,0 +1,142 @@
+{
+  "style": "flat vector cartoon game art, bold clean shapes, thick dark outline, neon rim glow, deep navy and electric cyan palette",
+  "assets": [
+    {
+      "name": "sprite_node_core",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_node_core.png",
+      "prompt": "One single glowing energy node orb with three bright inner cores, symmetric, centred, flat vector cartoon game art, bold clean shapes, thick dark outline, neon rim glow, deep navy and electric cyan palette"
+    },
+    {
+      "name": "sprite_emitter_cap",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_emitter_cap.png",
+      "prompt": "One single energy emitter cap, symmetric dome with one glowing slit along its lower edge, flat vector cartoon game art, bold clean shapes, thick dark outline, neon rim glow, deep navy and electric cyan palette"
+    },
+    {
+      "name": "sprite_channel_shaft",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_channel_shaft.png",
+      "prompt": "One single vertical energy conduit tube segment, thin neon walls, hollow glowing interior, straight and symmetric left to right, flat vector cartoon game art, bold clean shapes, thick dark outline, neon rim glow, deep navy and electric cyan palette"
+    },
+    {
+      "name": "sprite_switch_base",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_switch_base.png",
+      "prompt": "One single hexagonal socket plate for a router glyph, symmetric, thin neon rim, hollow dark centre, flat vector cartoon game art, bold clean shapes, thick dark outline, neon rim glow, deep navy and electric cyan palette"
+    },
+    {
+      "name": "sprite_switch_straight",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_switch_straight.png",
+      "prompt": "One single straight-through router glyph, one vertical bar with a glowing core, symmetric, flat vector cartoon game art, bold clean shapes, thick dark outline, neon rim glow, deep navy and electric cyan palette"
+    },
+    {
+      "name": "sprite_switch_divert",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "side view, facing RIGHT",
+      "target": "Assets/Art/Sprites/sprite_switch_divert.png",
+      "prompt": "One single deflector wedge glyph, side view, facing RIGHT: energy enters from the top and leaves at the right edge, clearly asymmetric, flat vector cartoon game art, bold clean shapes, thick dark outline, neon rim glow, deep navy and electric cyan palette"
+    },
+    {
+      "name": "sprite_select_ring",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_select_ring.png",
+      "prompt": "One single thin glowing selection ring, perfect circle, hollow centre, symmetric, flat vector cartoon game art, bold clean shapes, thick dark outline, neon rim glow, deep navy and electric cyan palette"
+    },
+    {
+      "name": "sprite_flow_pulse",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "top-down, nose DOWN",
+      "target": "Assets/Art/Sprites/sprite_flow_pulse.png",
+      "prompt": "One single energy pulse teardrop, top-down view with the pointed nose DOWN and the wide rounded end up, flat vector cartoon game art, bold clean shapes, thick dark outline, neon rim glow, deep navy and electric cyan palette"
+    },
+    {
+      "name": "sprite_receiver_vessel",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_receiver_vessel.png",
+      "prompt": "One single empty energy receiver vessel, upright cup with a target ring on its rim, symmetric, flat vector cartoon game art, bold clean shapes, thick dark outline, neon rim glow, deep navy and electric cyan palette"
+    },
+    {
+      "name": "sprite_receiver_fill",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_receiver_fill.png",
+      "prompt": "One single smooth energy fill block, soft vertical glow gradient from bright top to dim bottom, no objects and no outline shape, flat vector cartoon game art, bold clean shapes, neon rim glow, deep navy and electric cyan palette"
+    },
+    {
+      "name": "sprite_contam_ring",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_contam_ring.png",
+      "prompt": "One single warning ring with sharp notches around its edge, hollow centre, symmetric, flat vector cartoon game art, bold clean shapes, thick dark outline, neon rim glow, deep navy and electric cyan palette"
+    },
+    {
+      "name": "sprite_spark_burst",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_spark_burst.png",
+      "prompt": "One single radial energy burst, symmetric starburst of thin rays, flat vector cartoon game art, bold clean shapes, thick dark outline, neon rim glow, deep navy and electric cyan palette"
+    },
+    {
+      "name": "sprite_star",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_star.png",
+      "prompt": "One single five-point star, symmetric, flat vector cartoon game art, bold clean shapes, thick dark outline, neon rim glow, deep navy and electric cyan palette",
+      "hard_edges": false
+    },
+    {
+      "name": "sprite_lock_glyph",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_lock_glyph.png",
+      "prompt": "One single closed padlock glyph, symmetric, flat vector cartoon game art, bold clean shapes, thick dark outline, neon rim glow, deep navy and electric cyan palette"
+    },
+    {
+      "name": "sprite_icon_close",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_icon_close.png",
+      "prompt": "One single X cross icon, two thick rounded strokes, symmetric, flat vector cartoon game art, bold clean shapes, thick dark outline, neon rim glow, deep navy and electric cyan palette"
+    },
+    {
+      "name": "sprite_icon_back",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "side view, facing LEFT",
+      "target": "Assets/Art/Sprites/sprite_icon_back.png",
+      "prompt": "One single chevron arrow icon, side view, facing LEFT, one thick rounded stroke, clearly asymmetric, flat vector cartoon game art, bold clean shapes, thick dark outline, neon rim glow, deep navy and electric cyan palette"
+    },
+    {
+      "name": "sprite_icon_pause",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_icon_pause.png",
+      "prompt": "One single pause glyph, two vertical rounded bars side by side, symmetric, flat vector cartoon game art, bold clean shapes, thick dark outline, neon rim glow, deep navy and electric cyan palette"
+    },
+    {
+      "name": "BG_main",
+      "type": "bg",
+      "transparent": false,
+      "target": "Assets/Art/Textures/_BASE/Backgrounds/BG_main.png",
+      "prompt": "Vertical 19.5:9 portrait background, dark navy energy laboratory with faint vertical light conduits and soft cyan haze, important area centred, no text, no UI, flat vector cartoon game art, bold clean shapes, thick dark outline, neon rim glow, deep navy and electric cyan palette"
+    },
+    {
+      "name": "BG_game",
+      "type": "bg",
+      "transparent": false,
+      "target": "Assets/Art/Textures/_BASE/Backgrounds/BG_game.png",
+      "prompt": "Vertical 19.5:9 portrait background, very dark navy grid plane, low contrast, soft blue vignette, nothing in the centre so the play field reads clearly, no text, no UI, flat vector cartoon game art, bold clean shapes, thick dark outline, neon rim glow, deep navy and electric cyan palette"
+    }
+  ]
+}

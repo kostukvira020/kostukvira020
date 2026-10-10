@@ -1,0 +1,21 @@
+Почини исходники проекта TripleSevenSlotsFlow (платформа: unity, тикет ANDROID-3776). Раунд 1 из 3.
+
+Проект: C:/AndroidWorkspace/projects/TripleSevenSlotsFlow
+Правила генерации (обязательны): C:/AndroidWorkspace/CLAUDE-unity.md
+Полный лог пайплайна: C:/AndroidWorkspace/projects/TripleSevenSlotsFlow/.unity-pipeline.log
+
+ГЛАВНОЕ — жалоба человека, она важнее находок гейтов (он видел это на устройстве):
+When i start game scene, all freezes, maybe the reason because it throws exception, need you to try to detect it just like it or even run emulator to fix it
+Найди, КАКОЙ объект/код рисует то, на что жалуются, и почини причину. Скриншоты
+прошлой сборки: C:/AndroidWorkspace/projects/TripleSevenSlotsFlow/prompts/screenshots (могут быть старше кода).
+
+Требования:
+  * Меняй ТОЛЬКО файлы проекта. Шаблонные файлы не трогай (правило §00). Чинить через
+    свои объекты/override (C.2, C.18), а не правкой базовых prefab шаблона.
+  * Правь причину, а не симптом. НЕ ослабляй и не обходи проверки, ничего не удаляй
+    ради прохождения гейта.
+  * ПЕРЕД ОКОНЧАНИЕМ сам прогони ВСЕ гейты пайплайна и добейся exit 0:
+        bash C:/AndroidWorkspace/scripts/lib/unity-gates.sh C:/AndroidWorkspace/projects/TripleSevenSlotsFlow
+    Если гейт падает — чини и прогоняй снова. Гейт с пометкой soft допустим, HARD — нет.
+  * Сборку не запускай и пайплайн не трогай — пересборку и сверку скриншотов сделает автофикс.
+  * В конце ответа одной строкой: что именно изменил (файлы и суть).

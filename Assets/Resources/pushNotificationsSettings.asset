@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63f1f23061eb94677b4c099331c06f0b, type: 3}
+  m_Name: pushNotificationsSettings
+  m_EditorClassIdentifier: Unity.Services.PushNotifications::Unity.Services.PushNotifications.PushNotificationSettings
+  firebaseWebApiKey: AIzaSyDwr-B2AfiS6WxIhpJftpjDUhWjLQp3slo
+  firebaseProjectNumber: 229400703230
+  firebaseAppID: 1:229400703230:android:c0c887b60ff145ff8275af
+  firebaseProjectID: comrmxvqkljnpztf
